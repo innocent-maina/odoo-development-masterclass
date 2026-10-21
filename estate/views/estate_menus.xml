@@ -1,0 +1,31 @@
+<odoo>
+    <menuitem id="test_menu_root" name="Kenya Real Estate">
+
+        <menuitem id="property_first_level_menu" name="Advertisements">
+            <menuitem
+                id="property_model_menu_action"
+                action="estate_property_action"
+                name="Properties"
+            />
+        </menuitem>
+
+        <menuitem id="property_settings_menu" name="Settings">
+            <menuitem
+                id="property_type_model_menu_action"
+                action="estate_property_type_action"
+                name="Property Types"
+            />
+            <menuitem
+                id="property_tag_model_menu_action"
+                action="estate_property_tag_action"
+                name="Property Tags"
+            />
+            <menuitem
+                id="property_offer_model_menu_action"
+                action="estate_property_offer_action"
+                name="Property Offers"
+            />
+        </menuitem>
+
+    </menuitem>
+</odoo>
